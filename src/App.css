@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+#table1
+{
+    border: 1px solid violet;
+    border-radius: 20px;
+    height: 450px;
+    width: 480px;
+    padding-left: 80px;
+    margin-left: 380px;
+    margin-top: 100px;
+    background-color: rgb(220, 202, 236);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#column1
+{
+height: 40px;
+width: 300px;
+border-radius: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#imagehouse
+{
+    background-image: url("house.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+#rentify
+{
+    background-color: rgb(215, 184, 243);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(54, 4, 97);
+    padding-left: 20px;
+}
+#login
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(54, 4, 97);
+    padding-left: 110px;
+    padding-bottom: 20px;
+}
+#slogan
+{
+    text-align: center;
+    color: rgb(52, 3, 99);
+    font-family: 'Times New Roman', Times, serif;
+}
+#loginbutton
+{
+    background-color: blue;
+    color: white;
+    height: 45px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.header {
+    background-color: #a19af7;
+    color: white;
+    padding: 2px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
   }
-}
+  #size
+  {
+    font-size:60px;
+     padding-left:60px;
+     text-align: left;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  #highlight
+  {
+    color: rgb(44, 4, 114);
   }
+  #details
+  {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(54, 4, 97);
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  #submitbutton
+  {
+    background-color: rgb(53, 39, 117);
+    color: white;
+    height: 45px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  #imagehouse1
+{
+    background-image: url("bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1800px;
+}
+#buyer-button
+{
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(197, 173, 235);
+    color: rgb(54, 4, 100);
+    font-size: 32px;
+   margin-right: 30px;
+}
+#seller-button
+{
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(240, 137, 221);
+    color: rgb(54, 4, 100); 
+    font-size: 32px;
+}
+#buttons
+{
+    padding-left: 60px;
+}
+#imagehouse3
+{
+    background-image: url("bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 2000px;
+}
+#image
+{
+  width: 500px;
+  height:400px;
+  padding-left: 100px;
+  
+}
+#submitted-data
+{
+    border: 1px solid rgb(8, 4, 141);
+    border-radius: 20px;
+    height: 300px;
+    width: 480px;
+    padding-left: 80px;
+    margin-left: 380px;
+    margin-top: 100px;
+    background-color: rgb(220, 202, 236);
+}
+.popup
+{
+    border: 1px solid rgb(8, 4, 141);
+    border-radius: 20px;
+    height: 100px;
+    width: 480px;
+    padding-left: 80px;
+    margin-left: 380px;
+    margin-top: 100px;
+    background-color: rgb(220, 202, 236);
+}
+.buyertable
+{
+    border: 1px solid rgb(8, 4, 141);
+    border-radius: 20px;
+    height: 300px;
+    width: 900px;
+    padding-left: 80px;
+    margin-left: 180px;
+    margin-top: 100px;
+    background-color: rgb(185, 176, 233);
+}
+#interest
+{
+    border-radius: 10px;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    background-color: rgb(116, 226, 140);
+    color: rgb(54, 4, 100); 
+    font-size: 25px;
+
 }
